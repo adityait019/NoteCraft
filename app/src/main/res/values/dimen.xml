@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_height_recomd">70dp</dimen>
+    <dimen name="layout_width_recomd">48dp</dimen>
+    <dimen name="margin_button_bottom">25dp</dimen>
+    <dimen name="margin_button_end">25dp</dimen>
+    <dimen name="widgets_corner">45dp</dimen>
+    <dimen name="widgets_margin_top">16dp</dimen>
+    <dimen name="widgets_margin_end">16dp</dimen>
+    <dimen name="widgets_margin_start">16dp</dimen>
+    <dimen name="widgets_padding">15dp</dimen>
+    <dimen name="notes_text_size">17sp</dimen>
+    <dimen name="layout_padding">30dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="background_radius">300dp</dimen>
+    <dimen name="_48dp">48dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_200dp">200dp</dimen>
+    <dimen name="_150dp">150dp</dimen>
+
+</resources>

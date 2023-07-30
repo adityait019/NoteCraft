@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SignUp"
+    android:background="@drawable/index_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_recomd"
+            android:layout_marginStart="@dimen/widgets_margin_start"
+            android:layout_marginTop="@dimen/widgets_margin_top"
+            android:layout_marginEnd="@dimen/widgets_margin_end"
+            android:background="@drawable/widgets_design"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/notes_text_size"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_recomd"
+            android:layout_marginStart="@dimen/widgets_margin_start"
+            android:layout_marginTop="@dimen/widgets_margin_top"
+            android:layout_marginEnd="@dimen/widgets_margin_end"
+            android:background="@drawable/widgets_design"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/notes_text_size"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/password_confirm_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_recomd"
+            android:layout_marginStart="@dimen/widgets_margin_start"
+            android:layout_marginTop="@dimen/widgets_margin_top"
+            android:layout_marginEnd="@dimen/widgets_margin_end"
+            android:background="@drawable/widgets_design"
+            android:hint="@string/password_confirm"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/notes_text_size"
+            android:importantForAutofill="no"/>
+        <Button
+            android:id="@+id/signUp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/widgets_margin_start"
+            android:layout_marginTop="@dimen/widgets_margin_top"
+            android:layout_marginEnd="@dimen/widgets_margin_end"
+            android:text="@string/signUp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:background="@drawable/button_login_background"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</FrameLayout>

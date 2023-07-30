@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_login_background"
+    tools:context=".fragments.MainPage">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/asset"
+        android:textColor="@color/black"
+        android:text="@string/app_name"
+        android:textSize="30sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notes_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/layout_padding"
+        android:layout_below="@+id/appName"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/plussign"
+        android:layout_marginEnd="@dimen/widgets_margin_end"
+        android:layout_marginBottom="@dimen/margin_button_bottom"
+        android:minWidth="@dimen/layout_width_recomd"
+        android:minHeight="@dimen/layout_height_recomd"
+        android:contentDescription="@string/todo" />
+</RelativeLayout>

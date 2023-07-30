@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NoteCraft</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="signUp">Sign Up</string>
+    <string name="email_hint">notecraft@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="dont_have_acnt_msg">No Account?Create</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="description">Description</string>
+</resources>

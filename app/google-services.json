@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "708174112916",
+    "project_id": "android-5f74e",
+    "storage_bucket": "android-5f74e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708174112916:android:109da61c9f5c7eafa3ec81",
+        "android_client_info": {
+          "package_name": "com.example.notecraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708174112916-6rur34dvfq5jff5nheuhn9ii18fssb35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notecraft",
+            "certificate_hash": "56c095724adaed9ffdcb7ed1e63474738ea25a75"
+          }
+        },
+        {
+          "client_id": "708174112916-pdmg4vam65n0ak6gu6lhn66rbna3q0pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPScFUSXaoTq6IRpgGPj-lerttpeYXzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708174112916-pdmg4vam65n0ak6gu6lhn66rbna3q0pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
