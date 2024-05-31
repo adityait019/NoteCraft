@@ -1,6 +1,6 @@
 # Notecraft 
 
-[Notecraft Logo]![notecraft_logo](https://github.com/adityait019/NoteCraft/assets/78639310/b2bb8d48-9683-4f5e-9043-10191383ae9b)
+![notecraft_logo](https://github.com/adityait019/NoteCraft/assets/78639310/b2bb8d48-9683-4f5e-9043-10191383ae9b)
 
 
 
